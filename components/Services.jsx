@@ -58,7 +58,7 @@ export default function  Services(){
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Our <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Services</span>
+            Our <span className="bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">Services</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Comprehensive blockchain solutions tailored to transform your business and unlock new possibilities in the digital economy.
@@ -73,7 +73,7 @@ export default function  Services(){
               className="group bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 transition-all duration-300 transform hover:-translate-y-2 border border-gray-800 hover:border-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/10"
             >
               {/* Icon */}
-              <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-500 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <service.icon className="h-8 w-8 text-white" />
               </div>
 
@@ -91,7 +91,7 @@ export default function  Services(){
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-500">
-                      <div className="w-1.5 h-1.5 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full mr-3"></div>
+                      <div className="w-1.5 h-1.5 bg-gradient-to-r from-purple-600 to-pink-500 rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -113,7 +113,7 @@ export default function  Services(){
                 contactSection.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25"
+            className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-purple-500 hover:to-pink-400 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-purple-500/25"
           >
             Start Your Project Today
           </button>

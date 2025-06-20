@@ -63,7 +63,7 @@ export default function Contact () {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Get In <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Touch</span>
+            Get In <span className="bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Ready to transform your business with blockchain technology? Let's discuss your project and explore the possibilities together.
@@ -89,7 +89,7 @@ export default function Contact () {
                   href={contact.action}
                   className="group flex items-center space-x-4 p-6 bg-black rounded-xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 border border-gray-800 hover:border-cyan-500/50"
                 >
-                  <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <contact.icon className="h-6 w-6 text-white" />
                   </div>
                   <div>
@@ -172,7 +172,7 @@ export default function Contact () {
 
                 <button
                   type="submit"
-                  className="group w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25 flex items-center justify-center space-x-2"
+                  className="group w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-4 rounded-lg font-semibold hover:from-purple-500  hover:to-pink-400 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-pink-500/25 flex items-center justify-center space-x-2"
                 >
                   <span>Send Message</span>
                   <Send className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />

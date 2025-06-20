@@ -58,7 +58,7 @@ export default function Footer ()  {
                 <li key={index}>
                   <button
                     onClick={() => scrollToSection(link.href)}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
+                    className="text-gray-400 hover:text-pink-400 transition-colors duration-300"
                   >
                     {link.name}
                   </button>
@@ -83,7 +83,7 @@ export default function Footer ()  {
                   key={index}
                   href={social.href}
                   aria-label={social.label}
-                  className="w-10 h-10 bg-gray-900 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 transform hover:scale-110 border border-gray-800 hover:border-transparent"
+                  className="w-10 h-10 bg-gray-900 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-600 transition-all duration-300 transform hover:scale-110 border border-gray-800 hover:border-transparent"
                 >
                   <social.icon className="h-5 w-5 text-gray-400 hover:text-white transition-colors duration-300" />
                 </a>

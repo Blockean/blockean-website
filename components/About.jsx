@@ -4,7 +4,7 @@ import { Shield, Zap, Users, ArrowRight } from 'lucide-react';
 
 export default function About () {
   return (
-    <section id="about" className="py-20 mt-28 bg-gray-900 relative overflow-hidden">
+    <section id="about" className="py-20  bg-neutral-950 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-20 right-10 w-64 h-64 bg-neutral-500/5 rounded-full blur-3xl"></div>
@@ -46,7 +46,7 @@ export default function About () {
                 }
               ].map((feature, index) => (
                 <div key={index} className="flex items-start space-x-4 group">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <feature.icon className="h-6 w-6 text-white" />
                   </div>
                   <div>
@@ -59,7 +59,7 @@ export default function About () {
           </div>
 
           {/* Right Column */}
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 lg:p-12 space-y-8 border border-gray-700">
+          <div className="bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-2xl p-8 lg:p-12 space-y-8 border border-gray-700">
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
                 <strong className="text-white">Blockean</strong> is your dedicated partner in the world of blockchain technology, located in Pune. We leverage the power of web3 to create customized solutions that tackle your unique challenges.
@@ -82,7 +82,7 @@ export default function About () {
                   contactSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="group bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25 flex items-center space-x-2"
+              className="group bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-400 hover:to-pink-400 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-pink-500/25 flex items-center space-x-2"
             >
               <span>Get In Touch</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
