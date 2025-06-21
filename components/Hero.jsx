@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="pt-8">
             <button
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-lg shadow-2xl shadow-purple-500/30 px-6 py-4 hover:bg-white/10 border rounded-full border-white"
+              className="text-lg shadow-2xl text-white shadow-purple-500/30 px-6 py-4 hover:bg-white/10 border rounded-full border-white"
             >
               VIEW SERVICES
             </button>

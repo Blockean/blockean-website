@@ -52,8 +52,8 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-gray-200">
-          <ul className="flex flex-col space-y-4 p-4">
+        <div className="md:hidden bg-gray-900 text-center backdrop-blur-md border-t border-gray-200">
+          <ul className="flex flex-col space-y-4 p-5">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <a
