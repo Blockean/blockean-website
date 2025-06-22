@@ -11,7 +11,7 @@ export default function Footer ()  {
     { icon: Github, href: '#', label: 'GitHub' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:onamshettys@gmail.com', label: 'Email' }
+    // { icon: Mail, href: 'mailto:onamshettys@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [
@@ -39,11 +39,7 @@ export default function Footer ()  {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-black border p-2 rounded-lg">
-                {/* <Zap className="h-6 w-6 text-white" /> */}
-                <Image src="/blockean.png" alt="Blockean Logo" width={40} height={40} className="h-10 w-10 rounded-full" />
-              </div>
-              <span className="text-xl font-bold text-white">Blockean</span>
+             
             </div>
             <p className="text-gray-400 leading-relaxed">
               Your trusted partner in blockchain technology, delivering innovative solutions that transform businesses and unlock the potential of decentralized systems.
@@ -71,9 +67,7 @@ export default function Footer ()  {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Get In Touch</h3>
             <div className="space-y-3 text-gray-400">
-              <p>📧 onamshettys@gmail.com</p>
-              <p>📱 +91-918999804292</p>
-              <p>📍 Pune, Maharashtra, India</p>
+            
             </div>
             
             {/* Social Links */}
