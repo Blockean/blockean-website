@@ -20,7 +20,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          
+        
+          <span className="text-4xl font-extrabold tracking-wider font-serif ">
+            Omkar Web
+          </span>
         </div>
 
         {/* Desktop Links */}
