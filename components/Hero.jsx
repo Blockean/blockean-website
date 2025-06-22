@@ -23,13 +23,9 @@ export default function Hero() {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">
-              <span className="inline-block animate-fade-in-up animation-delay-100 font-serif">
-                EMPOWER YOUR
-              </span>
+             
               <br />
-              <span className="inline-block bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent animate-fade-in-up animation-delay-500 text-glow font-serif">
-                BUSINESS
-              </span>
+              
             </h1>
           </div>
 
