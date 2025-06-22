@@ -20,9 +20,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          {/* <Image src="/blockean.png" alt="Blockean Logo" width={70} height={70} /> */}
+          <Image src="/blockean.png" alt="Blockean Logo" width={70} height={70} />
           <span className="text-4xl font-extrabold tracking-wider font-serif ">
-            {/* BLOCKEAN */}
+            BLOCKEAN
           </span>
         </div>
 
