@@ -34,8 +34,8 @@ export default function Hero() {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-100   max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-700">
-            Unlock the power of blockchain technology and transform your business
-            with cutting-edge solutions that drive innovation and growth.
+            Unlock The Power Of Blockchain Technology And Transform Your Business
+            With Cutting-Edge Solutions That Drive Innovation And Growth.
           </p>
 
           <div className="pt-8">

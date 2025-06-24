@@ -135,8 +135,8 @@ export default function Services() {
             className="text-xl text-gray-400 max-w-3xl mx-auto"
             variants={fadeInUp}
           >
-            Comprehensive blockchain solutions tailored to transform your
-            business and unlock new possibilities in the digital economy.
+            Comprehensive Blockchain Solutions Tailored To Transform Your
+            Business And Unlock New Possibilities In The Digital Economy.
           </motion.p>
         </motion.div>
 

@@ -18,11 +18,11 @@ export default function About () {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-                Your blockchain 
-                <span className="bg-gradient-to-r from-purple-400  to-pink-400 bg-clip-text text-transparent animate-fade-in-up animation-delay-500"> partner</span>
+                Your Blockchain 
+                <span className="bg-gradient-to-r from-purple-400  to-pink-400 bg-clip-text text-transparent animate-fade-in-up animation-delay-500"> Partner</span>
               </h2>
               <p className="text-xl text-gray-400">
-                Tailored solutions for digital success
+                Tailored Solutions For Digital Success
               </p>
             </div>
 

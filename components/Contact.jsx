@@ -33,13 +33,14 @@ export default function Contact () {
     {
       icon: Mail,
       title: "Email Us",
-      info: "onamshettys@gmail.com",
-      action: "mailto:onamshettys@gmail.com"
+      info: "support@blockean.in",
+      action: ["mailto:onamshettys@gmail.com","mailto:support@blockean.in"]
+    
     },
     {
       icon: Phone,
       title: "Call Us",
-      info: "+918999804292",
+      info: "+91-8999804292",
       action: "tel:+918999804292"
     },
     {

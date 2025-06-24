@@ -1,16 +1,16 @@
 'use client';
 
 import React from 'react';
-import { Zap, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Zap, Github, Linkedin, Twitter, Mail,Instagram } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Footer ()  {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
+
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Instagram, href: '#', label: 'Twitter' },
     { icon: Mail, href: 'mailto:onamshettys@gmail.com', label: 'Email' }
   ];
 
@@ -30,6 +30,7 @@ export default function Footer ()  {
   };
 
   return (
+   
     <footer className="bg-black border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         
@@ -46,7 +47,7 @@ export default function Footer ()  {
               <span className="text-xl font-bold text-white">Blockean</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Your trusted partner in blockchain technology, delivering innovative solutions that transform businesses and unlock the potential of decentralized systems.
+              Your Trusted Partner In Blockchain Technology, Delivering Innovative Solutions That Transform Businesses And Unlock The Potential Of Decentralized Systems.
             </p>
           </div>
 
@@ -71,8 +72,8 @@ export default function Footer ()  {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Get In Touch</h3>
             <div className="space-y-3 text-gray-400">
-              <p>📧 onamshettys@gmail.com</p>
-              <p>📱 +91-918999804292</p>
+              <p>📧 support@blockean.in</p>
+              <p>📱 +91 8999804292</p>
               <p>📍 Pune, Maharashtra, India</p>
             </div>
             
@@ -95,11 +96,10 @@ export default function Footer ()  {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Blockean. All rights reserved.
-          </p>
-          
-        </div>
+            © {currentYear} Blockean. All Rights Reserved
+            </p>
+      </div>
       </div>
     </footer>
-  );
+ );
 };
